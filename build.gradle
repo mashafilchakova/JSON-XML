@@ -1,0 +1,13 @@
+plugins {
+    id 'com.bmuschko.docker-remote-api' version '3.2.0'
+}
+
+import com.bmuschko.gradle.docker.tasks.image.Dockerfile
+import com.bmuschko.gradle.docker.tasks.image.DockerBuildImage
+
+task buildImage(type: DockerBuildImage) {
+    inputDir = project.file('/home/ivan/Documents/trpo/for_masha/trpo/')
+    tags.add('filchakova/image:latest')
+}
+
+

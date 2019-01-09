@@ -5,7 +5,7 @@ Application starts HTTP server on localhost:8080 to process HTTP POST requests w
 Application is built with Gradle, which has tasks for making docker-image. Uses bmuschko/gradle-docker-plugin.
 
 Build: ./gradlew build                                                                                                   
-Create docker-image: ./gradlew create
+Create docker-image: ./gradlew create                                                                              
 Start service: ./gradlew start
 # Usage
 Start service with ./gradlew start, then it will be running on http://localhost:8080. Now you can send post requests to http://localhost:8080/convert.

@@ -1,5 +1,5 @@
 # JSON->XML service
-Application starts HTTP server on localhost:8080 to process HTTP POST requests with data (json formatted string), providing converted to xml format string.
+Приложение запускает HTTP-сервер на локальном хосте: 8080 для обработки запросов HTTP POST с данными (строка в формате json), обеспечивая преобразование в строку формата xml.
 Сервис упакован в образ докера, который построен с помощью gradle.
 
 

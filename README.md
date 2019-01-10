@@ -11,7 +11,7 @@ gradlew buildImage
 
 Для запуска нужно использовать команду:                                                                               
 
-docker run -p 8080:80 {image_id}
+docker run -p 8080:80 filchakova/image
 
 Пример curl запроса:                                                                                 
 

@@ -4,10 +4,6 @@ plugins {
     id 'com.bmuschko.docker-remote-api' version '4.2.0'
 }
 
-repositories {
-    jcenter()
-}
-
 task buildImage(type: DockerBuildImage) {
     inputDir = project.file('.')
     tags.add('filchakova/image:latest')
